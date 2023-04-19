@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
           builder: (BuildContext context, AsyncSnapshot snapshot) {
             if (snapshot.hasError) {
               return Center(
-                child: Text("Error cames"),
+                child: Text("Error cames yoyo"),
               );
             }
             if (snapshot.hasData) {
